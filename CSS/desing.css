@@ -1,0 +1,33 @@
+*{
+	margin:0px;
+	padding:0px;
+/*	box-sizing: border-box;*/
+	font-family:Comic Sans MS;
+}
+#Student_table , td,th {
+	border:1px solid black;
+	border-collapse: collapse;
+}
+img{
+	width: 100px;
+	height: auto;
+}
+#Student_table td{
+	table-layout: fixed;
+	width: 25%;
+}
+#Student_table{
+	width: 100%;
+	height: auto;
+}
+thead{
+	background-color: gray;
+}
+#Student_table tr:nth-child(even){
+	background-color: brown;
+}
+#Student_table tbody tr td p{
+	text-align: center;
+}
+
+
